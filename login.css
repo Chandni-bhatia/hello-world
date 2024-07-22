@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'popins',sans-serif;
+}
+ section{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+}
+body::before{
+    content: '';
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(94, 94, 241),white);
+    clip-path: circle(22% at 30% 20%);
+
+}
+body::after{
+    content: '';
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white,rgb(94, 94, 241));
+    clip-path: circle(22% at 70% 90%);
+    z-index: 6;
+}
+
+.content{
+    z-index: 10;
+    align-items: center;
+    padding: 200px 200px 200px 400px;
+
+    
+}
+.formBx{
+    font-size: 20px;
+    font-weight: 200;
+}
+.inputBx a button{
+    /* padding: 30px; */
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.inputBx{
+    z-index: 9;
+}
+
+.inpu
+{
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    width: 335px;
+    height: 45px;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    color: #776677;
+    font-family: Roboto;
+    font-weight: 300;
+    margin-bottom: 10px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+     user-select: none;
+}
+/* .remember{
+    width: 3px;
+    height: 5px;
+    padding: 0px;
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+} */
+/* section .imgg{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+ section .imgg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,rgb(160, 160, 194),rgb(226, 217, 217));
+    z-index: 1;
+    mix-blend-mode: screen;
+
+
+}  
+
+section .imgg img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  */ 
+
+ /* section .contentBx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  
+} */
+
+/* section .contentBx .formBx {
+    width: 70%;
+}
+ section .contentBx .formBx h2{
+     color: #607d8b;
+     font-weight: 600;
+     
+ }  */

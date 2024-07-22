@@ -1,0 +1,1057 @@
+﻿
+	<!doctype html>
+<!--[if lt IE 9]><html class="no-js no-svg ie lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
+<!--[if IE 9]><html class="no-js no-svg ie ie9 lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if gt IE 9]><!-->
+	<html
+	class="no-js no-svg body newsroom" lang="en-US"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="author" href="https://www.altair.com/newsroom/wp-content/themes/newsroom/humans.txt"/>
+		<link rel="pingback" href="https://www.altair.com/newsroom/xmlrpc.php"/>
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.altair.com/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="https://www.altair.com/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="https://www.altair.com/favicon-16x16.png"/>
+
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v17.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Why Calculation Management is Important for Engineers - Altair Newsroom</title>
+	<link rel="canonical" href="https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Why Calculation Management is Important for Engineers - Altair Newsroom" />
+	<meta property="og:description" content="This guest contribution on the Altair Blog is written by&nbsp;Dr. Laurent Bernardin, COO and Chief Scientist at Maplesoft, a member of the Altair Partner Alliance. Consider the workflow of many engineers, or technical professionals. During the initial stages of a design project, there’s a lot of scratchpad work. Without enough care and attention, many of [&hellip;]" />
+	<meta property="og:url" content="https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/" />
+	<meta property="og:site_name" content="Altair Newsroom" />
+	<meta property="article:published_time" content="2019-01-30T13:00:05+00:00" />
+	<meta property="article:modified_time" content="2021-01-06T18:04:48+00:00" />
+	<meta property="og:image" content="http://newsroom.test/wp-content/uploads/MainImage-2.jpg" />
+	<meta property="og:image:width" content="820" />
+	<meta property="og:image:height" content="542" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Altair Partner Alliance" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.altair.com/newsroom/#organization","name":"Altair Engineering","url":"https://www.altair.com/newsroom/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.altair.com/newsroom/#logo","inLanguage":"en-US","url":"https://www.altair.com/newsroom/wp-content/uploads/altair-logo-new.jpg","contentUrl":"https://www.altair.com/newsroom/wp-content/uploads/altair-logo-new.jpg","width":432,"height":144,"caption":"Altair Engineering"},"image":{"@id":"https://www.altair.com/newsroom/#logo"}},{"@type":"WebSite","@id":"https://www.altair.com/newsroom/#website","url":"https://www.altair.com/newsroom/","name":"Altair Newsroom","description":"","publisher":{"@id":"https://www.altair.com/newsroom/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.altair.com/newsroom/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#primaryimage","inLanguage":"en-US","url":"https://www.altair.com/newsroom/wp-content/uploads/MainImage-2.jpg","contentUrl":"https://www.altair.com/newsroom/wp-content/uploads/MainImage-2.jpg","width":820,"height":542},{"@type":"WebPage","@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#webpage","url":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/","name":"Why Calculation Management is Important for Engineers - Altair Newsroom","isPartOf":{"@id":"https://www.altair.com/newsroom/#website"},"primaryImageOfPage":{"@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#primaryimage"},"datePublished":"2019-01-30T13:00:05+00:00","dateModified":"2021-01-06T18:04:48+00:00","breadcrumb":{"@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/"]}]},{"@type":"BreadcrumbList","@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.altair.com/newsroom/"},{"@type":"ListItem","position":2,"name":"Why Calculation Management is Important for Engineers"}]},{"@type":"Article","@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#article","isPartOf":{"@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#webpage"},"author":{"@id":"https://www.altair.com/newsroom/#/schema/person/c504a4ea50ff9531db04ae0479ca6361"},"headline":"Why Calculation Management is Important for Engineers","datePublished":"2019-01-30T13:00:05+00:00","dateModified":"2021-01-06T18:04:48+00:00","mainEntityOfPage":{"@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#webpage"},"wordCount":733,"commentCount":0,"publisher":{"@id":"https://www.altair.com/newsroom/#organization"},"image":{"@id":"https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#primaryimage"},"thumbnailUrl":"https://www.altair.com/newsroom/wp-content/uploads/MainImage-2.jpg","articleSection":["Partner Perspectives"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.altair.com/newsroom/partner-perspectives/why-calculation-management-is-important-for-engineers/#respond"]}]},{"@type":"Person","@id":"https://www.altair.com/newsroom/#/schema/person/c504a4ea50ff9531db04ae0479ca6361","name":"Altair Partner Alliance","image":{"@type":"ImageObject","@id":"https://www.altair.com/newsroom/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/8ac9a3fb2ce667943f03fde3abc23df7?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/8ac9a3fb2ce667943f03fde3abc23df7?s=96&d=mm&r=g","caption":"Altair Partner Alliance"},"description":"The Altair Partner Alliance (APA) provides access to a broad spectrum of complementary software products, through the use of HyperWorks Units (HWUs) at no additional cost. Their continuously expanding list of partner software, across a broad range of disciplines, serves the needs of hundreds of companies ranging from automotive, aerospace, and defense to consumer products, biomedical and heavy equipment. The APA curates a diverse collection of blog posts written by its many partners to keep readers informed on a variety of trending engineering topics.","sameAs":["http://www.altairhyperworks.com/APAHome.aspx"],"url":"https://www.altair.com/newsroom/author/apa/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Altair Newsroom &raquo; Feed" href="https://www.altair.com/newsroom/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Altair Newsroom &raquo; Comments Feed" href="https://www.altair.com/newsroom/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.altair.com\/newsroom\/wp-includes\/js\/wp-emoji-release.min.js?ver=a041fbd04579d55709e8ad8687e3b38d"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.altair.com/newsroom/wp-includes/css/dist/block-library/style.min.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='gotham-css'  href='//www.altair.com/include-header-footer/fonts/HCo_GothamSSm_Web/hco_fonts/hco_fonts.min.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='bundled-css'  href='//www.altair.com/css/bundled.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='bundled-nav-css'  href='//www.altair.com/css/bundled-nav.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='bundled-newsroom-css'  href='//www.altair.com/css/bundled-newsroom.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<link rel='stylesheet' id='newsroom-fancybox-css'  href='//www.altair.com/css/newsroom-fancybox.css?ver=a041fbd04579d55709e8ad8687e3b38d' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.altair.com/newsroom/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.altair.com/newsroom/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://www.altair.com/newsroom/wp-json/" /><link rel="alternate" type="application/json" href="https://www.altair.com/newsroom/wp-json/wp/v2/posts/22094" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.altair.com/newsroom/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.altair.com/newsroom/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://www.altair.com/newsroom/?p=22094' />
+<link rel="alternate" type="application/json+oembed" href="https://www.altair.com/newsroom/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.altair.com%2Fnewsroom%2Fpartner-perspectives%2Fwhy-calculation-management-is-important-for-engineers%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.altair.com/newsroom/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.altair.com%2Fnewsroom%2Fpartner-perspectives%2Fwhy-calculation-management-is-important-for-engineers%2F&#038;format=xml" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v8.4.90-->
+			<script type="text/javascript">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+						<script>
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					}
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+		
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+w[l] = w[l] || [];
+w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s),
+dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-M2T7LR');
+		</script>
+		<!-- End Google Tag Manager -->
+
+		<meta name="google-site-verification" content="aRTZNEFXVOQJ4sxCY6SYeII_hqNR_vqyvlTANMK5bug"/>
+
+
+	</head>
+</html>
+	</head>
+<body class="post-template-default single single-post postid-22094 single-format-standard newsroom cat-partner-perspectives paged-index" data-template="base.twig">
+
+	<header class="altair-header">
+	
+
+<!-- mobile nav -->
+<nav id="ml-menu" class="menu">
+    <button class="action action--close" aria-label="Close Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.414" height="19.414" viewBox="0 0 19.414 19.414">
+            <g transform="translate(-330.793 -145.793)" opacity="0.498">
+                <line x2="18" y2="18" transform="translate(331.5 146.5)" fill="none" stroke="#a2aaad" stroke-width="2" />
+                <line x1="18" y2="18" transform="translate(331.5 146.5)" fill="none" stroke="#a2aaad" stroke-width="2" />
+            </g></svg></button>
+    <div class="menu__wrap">
+
+        <!-- 
+        #######################
+        SOURCE NAV
+        #######################
+            -->
+
+        <!-- ## Main Menu -->
+        <ul data-menu="main" id="menu-0" class="menu__level" tabindex="-1" role="menu" aria-label="All">
+            <li id="header_liMobileAltairOne" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/altair-one/" target="_self">Altair One</a></li>
+            <li id="header_liMobileSolutions" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" data-submenu="submenu-1" aria-owns="submenu-1" href="https://www.altair.com/" target="_self">Solutions</a></li>
+            <li id="header_liMobileApplications" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" data-submenu="submenu-2" aria-owns="submenu-2" href="https://www.altair.com/" target="_self">Products</a></li>
+            <li id="header_liMobileServices" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" data-submenu="submenu-3" aria-owns="submenu-3" href="https://www.altair.com/" target="_self">Services</a></li>
+            <li id="header_liMobileResources" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" data-submenu="submenu-4" aria-owns="submenu-4" href="https://www.altair.com/" target="_self">Resources</a></li>
+            <li id="header_liMobileAbout" class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" data-submenu="submenu-5" aria-owns="submenu-5" href="https://www.altair.com/" target="_self">About</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" href="https://altairone.com/login" target="_blank">Sign In</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" href="https://www.altair.com/free-trials/" target="_self">Free Trials</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" href="https://www.altair.com/customer-support/" target="_self">Support</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" href="https://www.altair.com/newsroom/" target="_self">Newsroom</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" href="https://www.altair.com/careers/" target="_self">Careers</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--secondary" data-submenu="submenu-6" aria-owns="submenu-6" href="https://www.altair.com/" target="_self">English | EN</a></li>
+        </ul>
+
+        <!-- solutions - Submenu 1 -->
+        <ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Vegetables">
+            <li class="menu__item menu__link--primary" role="menuitem"><a class="menu__link" data-submenu="submenu-1-1" aria-owns="submenu-1-1" href="https://www.altair.com/" target="_self">Trends</a></li>
+            <li class="menu__item menu__link--primary" role="menuitem"><a class="menu__link" data-submenu="submenu-1-2" aria-owns="submenu-1-2" href="https://www.altair.com/" target="_self">Industries</a></li>
+            <li class="menu__item menu__link--primary" role="menuitem"><a class="menu__link" data-submenu="submenu-1-3" aria-owns="submenu-1-3" href="https://www.altair.com/" target="_self">Roles</a></li>
+        </ul>
+
+        <!--  solutions / trends - Submenu 1-1 -->
+        <ul data-menu="submenu-1-1" id="submenu-1-1" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-1-1">
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/advanced-manufacturing/" target="_self">Advanced Manufacturing</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ai-powered-design/" target="_self">AI-powered Design</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/autonomous-adas/" target="_self">Autonomous & ADAS</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/big-data/" target="_self">Big Data</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/cloud-computing/" target="_self">Cloud & Hybrid Computing </a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/data-transformation/" target="_self">Data Transformation</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/digital-twin/" target="_self">Digital Twin</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/e-mobility/" target="_self">e-Mobility</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/exascale/" target="_self">Exascale</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/gpu/" target="_self">GPU Solutions</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/machine-learning/" target="_self">Machine Learning</a></li>
+            <li class="menu__item" role="menuitem"><a title="Manufacturing Analytics" class="menu__link" href="https://www.altair.com/manufacturing-analytics/" target="_self">Manufacturing Analytics</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/smart-product-development/" target="_self">Smart Product Development</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/sustainability/" target="_self">Sustainability</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/5g/" target="_self">5G</a></li>
+        </ul>
+ 
+        <!--  solutions / Industries - Submenu 1-2 -->
+        <ul data-menu="submenu-1-2" id="submenu-1-2" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-1-2">
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/aerospace/" target="_self">Aerospace</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/architecture-engineering-construction/" target="_self">Architecture, Engineering, & Construction (AEC)</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/automotive/" target="_self">Automotive</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/consumer-goods/" target="_self">Consumer Goods</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/electronics/" target="_self">Electronics</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/energy/" target="_self">Energy</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/financial-services/" target="_self">Financial Services</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/government-agencies/" target="_self">Government Agencies</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/healthcare/" target="_self">Healthcare</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/heavy-equipment/" target="_self">Heavy Equipment</a></li>
+           <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/industrial-machinery/" target="_self">Industrial Machinery</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/insurance/" target="_self">Insurance</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/marine/" target="_self">Marine</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/process-manufacturing/" target="_self">Process Manufacturing</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/rail/" target="_self">Rail</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/weather-climate/" target="_self">Weather &amp; Climate</a></li>
+        </ul>
+
+        <!--  solutions / roles Submenu 1-3 -->
+        <ul data-menu="submenu-1-3" id="submenu-1-3" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-1-3">
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/data-analysts/" target="_self">Data Scientists & Analysts</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/designers/" target="_self">Designers</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/developers/" target="_self">Developers</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/engineers/" target="_self">Engineers</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/executives/" target="_self">Executives</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/facility-managers/" target="_self">Facility Managers</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/it-hpc-professionals/" target="_self">IT &amp; HPC Professionals</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/start-ups/" target="_self">Start-ups</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/students-educators/" target="_self">Students &amp; Educators</a></li>
+        </ul>
+
+        <!-- PRODUCTS Submenu 2 -->
+        <ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-2">
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/data-analytics-applications/" target="_self">Data Analytics & AI</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/electromagnetics-applications/" target="_self">Electromagnetics</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/electronic-system-design/" target="_self">Electronic System Design</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/fluids-thermal-applications/" target="_self">Fluids & Thermal</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/hpc-cloud-applications/" target="_self">HPC &amp; Cloud</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/industrial-design-applications/" target="_self">Industrial Design</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/internet-of-things-applications/" target="_self">Internet of Things</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/manufacturing-applications/" target="_self">Manufacturability</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/multiphysics-applications/" target="_self">Multiphysics</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/structures-applications/" target="_self">Structural Analysis</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/systems-modeling-applications/" target="_self">Systems Modeling</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary menu__link--more" href="https://www.altair.com/product-showcase" target="_self">View All Products</a></li>
+        </ul>
+
+        <!-- Services Submenu 3 -->
+        <ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="services-3">
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/data-science-services/" target="_self">Data Science</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/industrial-design-services/" target="_self">Industrial Design</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/product-engineering-services/" target="_self">Product Engineering</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/tailored-solutions/" target="_self">Tailored Solutions</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/staffing-services/" target="_self">Staffing</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/connected-products/" target="_self">Connected Products</a></li>
+        </ul>
+
+
+        <!-- Resources Submenu 4 -->
+        <ul data-menu="submenu-4" id="submenu-4" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-4">
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/resources/customer-stories" target="_self">Customer Stories</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/resources/customer-videos" target="_self">Testimonials</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/resources/webinars" target="_self">Webinars</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/learning-center/" target="_self">Learning Center</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://community.altair.com/community" target="_blank">Community & Support</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://learn.altair.com/" target="_blank">Training</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://altairuniversity.com/" target="_blank">Academic Program</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/software-downloads/" target="_self">Downloads</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary" href="https://www.altair.com/newsroom/articles/" target="_self">Featured Articles</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link menu__link--primary menu__link--more" href="https://www.altair.com/ResourceLibrary/" target="_self">View All Resources</a></li>
+        </ul>
+
+        <!-- About Submenu 5 -->
+        <ul data-menu="submenu-5" id="submenu-5" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-5">
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/company/" target="_self">Company</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/careers/" target="_self">Careers</a></li>
+            <li class="menu__item" role="menuitem"><a title="Licensing" class="menu__link  menu__link--primary" href="https://www.altair.com/altair-units/" target="_self">Licensing</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/partners/" target="_self">Partners</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://investor.altair.com/" target="_blank">Investors</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/newsroom/" target="_self">Newsroom</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/events/" target="_self">Events</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link  menu__link--primary" href="https://www.altair.com/contact-us/" target="_self">Contact</a></li>
+        </ul>
+
+        <!-- Languages Submenu 6 -->
+        <ul data-menu="submenu-6" id="submenu-6" class="menu__level" tabindex="-1" role="menu" aria-label="solutions-6">
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=en-US" target="_self">English | EN</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=de-DE" target="_self">Deutsch | DE</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=es-ES" target="_self">Español | ES</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=fr-FR" target="_self">Français | FR</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=it-IT" target="_self">Italiano | IT</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=ja-JP" target="_self">日本語 | JP</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=ko-KR" target="_self">한국어 | KR</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=ru-RU" target="_self">русский | RU</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=zh-CN" target="_self">中文 | ZH-CN</a></li>
+            <li class="menu__item" role="menuitem"><a class="menu__link" href="https://www.altair.com/ChangeLanguage/?lang=zh-TW" target="_self">中文繁體 | ZH-TW</a></li>
+        </ul>
+
+        <!--  ####################
+        END SOURCE NAV
+        ##################### -->
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-brand">
+            <a class="brand" href="https://www.altair.com/" target="_self">
+            <svg class="brand__logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 312 95.5" xml:space="preserve"><style>.st1{fill:#005776}.brand__logo-tagline{fill:#2dccd3}</style><path d="M71.4 47.1c-12-12.7-20.8-28-25.6-44.8-.4-1.4-1.6-2.3-3-2.3H29.5c-1.4 0-2.6 1-3 2.3C21.7 19.1 12.9 34.4.9 47.1c-1 1-1.2 2.6-.5 3.8L7 62.4c.7 1.2 2.1 1.8 3.5 1.5 8.4-2.1 17-3.1 25.6-3.1 8.6 0 17.3 1 25.6 3.1 1.4.4 2.8-.3 3.5-1.5l6.6-11.6c.7-1.2.5-2.7-.4-3.7zm-14.7 9.7l-46.6-10c-.2-.1-.4-.3-.3-.5 0-.1 0-.1.1-.2l31.9-35.8c.1-.2.4-.2.5 0l.1.1 14.8 45.8c.1.2-.1.5-.3.5-.1.1-.1.1-.2.1z" fill="#fa4616" transform="translate(-.002)"/><path class="st1" d="M18.5 0L0 42.2h8.6l4.2-9.9h18.5l4.2 9.9h8.8L25.9 0h-7.4zm-2.6 24.9l6.2-14.3 6.2 14.3H15.9zM58.9.3h-8.3v41.9h29.8v-7.7H58.9V.3zM129.4 0l-18.5 42.2h8.6l4.2-9.9h18.5l4.2 9.9h8.8L136.7 0h-7.3zm-2.6 24.9l6.2-14.3 6.2 14.3h-12.4zM162.2.3h8.3v41.9h-8.3zM207.3 26.5c6-1.9 9.4-6.5 9.4-12.7 0-8.3-6-13.5-15.7-13.5h-18.8v41.9h8.3V28h8.1l10.1 14.3h9.9l-11.3-15.8zM190.5 8h9.9c5.1 0 7.9 2.2 7.9 6.3 0 3.9-3 6.3-7.9 6.3h-9.9V8zM77.9.3v8h12.9v34h8.5v-34h12.9v-8H77.9z" transform="translate(93.473 10.862)"/><g><path class="brand__logo-tagline" d="M93.5 84.8c0-4.9 3.7-8.9 9-8.9s8.9 4 8.9 8.8c0 4.8-3.7 8.8-9 8.8-5.3.1-8.9-3.9-8.9-8.7zm14.7 0c0-3.4-2.4-6.1-5.8-6.1s-5.8 2.7-5.8 6 2.4 6.1 5.8 6.1 5.8-2.7 5.8-6zM115.9 76.2h2.8l9.2 11.8V76.2h3v17.1h-2.5L119 81.1v12.2h-3V76.2zM136 76.2h3v14.4h9v2.7h-12V76.2zM153.9 86.5l-6.8-10.4h3.6l4.8 7.6 4.8-7.6h3.4l-6.8 10.3v6.8h-3v-6.7zM175.4 76.2h12.7v2.7h-9.7v4.7h8.6v2.7h-8.6v7h-3V76.2zM191.3 84.8c0-4.9 3.7-8.9 9-8.9s8.9 4 8.9 8.8c0 4.8-3.7 8.8-9 8.8s-8.9-3.9-8.9-8.7zm14.8 0c0-3.4-2.4-6.1-5.8-6.1s-5.8 2.7-5.8 6 2.4 6.1 5.8 6.1 5.8-2.7 5.8-6zM213.7 76.2h7.6c2.2 0 3.8.6 4.9 1.7.9.9 1.4 2.2 1.4 3.7 0 2.8-1.7 4.5-4.1 5.2l4.6 6.5h-3.6l-4.2-6h-3.8v6h-3V76.2zm7.4 8.4c2.2 0 3.5-1.1 3.5-2.9 0-1.8-1.3-2.8-3.5-2.8h-4.4v5.7h4.4zM230.6 76.2h3.3l4.1 12.7 4.2-12.7h2.5l4.2 12.7 4.1-12.7h3.2l-5.9 17.2h-2.6l-4.2-12.3-4.2 12.3h-2.6l-6.1-17.2zM263.9 76h2.8l7.5 17.2H271l-1.7-4.1h-8.1l-1.8 4.1h-3.1l7.6-17.2zm4.3 10.5l-3-6.8-2.9 6.8h5.9zM278 76.2h7.6c2.2 0 3.8.6 4.9 1.7.9.9 1.4 2.2 1.4 3.7 0 2.8-1.7 4.5-4.1 5.2l4.6 6.5h-3.6l-4.2-6H281v6h-3V76.2zm7.4 8.4c2.2 0 3.5-1.1 3.5-2.9 0-1.8-1.3-2.8-3.5-2.8H281v5.7h4.4zM296.5 76.2h6.4c5.4 0 9.1 3.7 9.1 8.5s-3.7 8.6-9.1 8.6h-6.4V76.2zm3 2.7v11.6h3.4c3.6 0 5.9-2.4 5.9-5.8 0-3.3-2.3-5.8-5.9-5.8h-3.4z"/></g></svg>
+            </a>
+
+
+            <form action="https://www.altair.com/search/" class="navbar-brand__nav">
+                <div class="search">
+                    <div class="search-field"><input name="q" type="text" class="SearchTB" placeholder="Search" autocomplete="off" onkeydown="if (event.keyCode == 13) { this.form.submit(); return false; }"></div>
+
+                    <input type="submit" name="ctl00$SearchBtn" value="" class="SearchBtn">
+                <span class="close hide"><img src="https://www.altair.com/images/icons/close.svg" alt="close"></span>  
+                </div>
+                <!-- /.search -->
+            
+
+                <button class="navbar-brand__toggle btn-text action--open" type="button" aria-label="Open Menu">
+                    <svg class="off" xmlns="http://www.w3.org/2000/svg" width="23.329" height="18" viewBox="0 0 23.329 18">
+                        <path d="M6.427,28.283H29.755v-3H6.427v3Zm0-7.5H29.755v-3H6.427v3Zm0-10.5v3H29.755v-3H6.427Z" transform="translate(-6.427 -10.283)" fill="#005776" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <div class="navbar-primary">
+            <ul class="nav">
+                <li id="header_liAltairOne" class="navbar__item"><a class="btn-text" href="https://www.altair.com/altair-one/" target="_self">Altair One</a></li>
+                <li id="header_liSolutions" class="navbar__item navbarmenu">
+                    <button class="navbarmenu__toggle btn-text" type="button" aria-haspopup="true" aria-expanded="false">
+                        Solutions
+                    </button>
+                    <div class="navbarmenu__content">
+                        <div class="container">
+                            <div class="row__medium-4 row__mr-1col">
+                                <div class="navbarmenu__subhead">Trends</div>
+                                <div class="row__medium-6">
+                                    <ul class="list-unstyled" id="navTrends1"></ul>
+                                </div>
+                                <div class="row__medium-6">
+                                    <ul class="list-unstyled" id="navTrends2"></ul>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="row__medium-4 row__mr-1col">
+                                <div class="navbarmenu__subhead">Industries</div>
+                                <div class="row__medium-6">
+                                    <ul class="list-unstyled" id="navIndustries1"></ul>
+                                </div>
+                                <div class="row__medium-6">
+                                    <ul class="list-unstyled" id="navIndustries2"></ul>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="row__medium-2">
+                                <div class="navbarmenu__subhead">Roles</div>
+                                <ul class="list-unstyled" id="navRoles1"></ul>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                </li>
+                <li id="header_liApplications" class="navbar__item navbarmenu">
+                    <button class="navbarmenu__toggle btn-text" type="button" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </button>
+                    <div class="navbarmenu__content">
+                        <div class="container">
+                            <div class="row__medium-2 row__mr-1col">
+                                <div class="navbarmenu__subhead">Product Groups</div>
+                                <ul class="list-unstyled" id="navApplications1"></ul>
+                            </div>
+                            <div class="row__medium-2 row__mr-1col"> 
+                                <ul class="list-unstyled" id="navApplications2"></ul>
+                            </div>
+                            <div class="row__medium-2 row__mr-2col">
+                                <ul class="list-unstyled" id="navApplications3"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.dropdown__content -->
+                </li>
+                <li id="header_liServices" class="navbar__item navbarmenu">
+                    <button class="navbarmenu__toggle btn-text" type="button" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </button>
+                    <div class="navbarmenu__content">
+                        <div class="container">
+                            <div class="row__medium-2 row__mr-1col">
+                                <ul class="list-unstyled" id="navServices1"></ul>
+                            </div>
+                            <div class="row__medium-2 row__mr-1col">
+                                <ul class="list-unstyled" id="navServices2"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.dropdown__content -->
+                </li>
+                <li id="header_liResources" class="navbar__item navbarmenu">
+                    <button class="navbarmenu__toggle btn-text" type="button" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </button>
+                    <div class="navbarmenu__content">
+                        <div class="container">
+                            <div class="row__medium-2 row__mr-1col">
+                                <ul class="list-unstyled" id="navResources1"></ul>
+                            </div>
+                            <div class="row__medium-2">
+                                <ul class="list-unstyled" id="navResources2"></ul>
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                    <!-- /.dropdown__content -->
+                </li>
+                <li id="header_liAbout" class="navbar__item navbarmenu">
+                    <button class="navbarmenu__toggle btn-text" type="button" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </button>
+                    <div class="navbarmenu__content">
+                        <div class="container">
+                            <div class="row__medium-2">
+                                <ul class="list-unstyled" id="navAbout1"></ul>
+                            </div>
+                            <div class="row__medium-2">
+                                <ul class="list-unstyled" id="navAbout2"></ul>
+                            </div>
+                            <div class="row__medium-2">
+                                <ul class="list-unstyled" id="navAbout3"></ul>
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                    <!-- /.dropdown__content -->
+
+                </li>
+            </ul>
+        </div>
+
+
+        <ul class="nav navbar-secondary">
+            <li><a href="https://altairone.com/login" target="_blank">Sign In</a></li>
+            <li><a href="https://www.altair.com/free-trials/" target="_self">Free Trials</a></li>
+            <li><a href="https://www.altair.com/customer-support/" target="_self">Support</a></li>
+            <li><a href="https://www.altair.com/newsroom/" target="_self">Newsroom</a></li>
+            <li><a href="https://www.altair.com/careers/" target="_self">Careers</a></li>
+            <li class="dropdown language">
+                <button class="dropdown__toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English | EN
+                </button>
+
+                <div class="dropdown__content">
+                    <ul class="list-unstyled" id="navLanguages"></ul>
+                </div>
+            </li>
+            <li class="nav__search">
+
+                <form action="https://www.altair.com/search/" class="search">
+                    <div class="search-field">
+                        <input name="q" type="text" class="SearchTB" placeholder="Search" autocomplete="off" onkeydown="if (event.keyCode == 13) { this.form.submit(); return false; }">
+                    </div>
+
+                    <input type="submit" name="ctl00$SearchBtn" value="" class="SearchBtn">
+
+                    <span class="close hide">
+                        <img src="https://www.altair.com/images/icons/close.svg" alt="close"></span>
+                </form>
+                <!-- /.search -->
+
+            </li>
+        </ul>
+    </div>
+    <!-- /.navbar -->
+</div>
+<!-- /.container -->
+
+
+	</header>
+
+
+
+
+<a class="sr-only" href="#content">Skip to content</a>
+
+<header class="header bg-white">
+			
+
+<section class="hero mb-40">
+	<picture>
+
+	
+	</picture>
+</section>
+
+	
+
+<div class="container title-search">
+
+	<div class="row row--gutters-100">
+		<div class="row__large-8 ">
+
+										
+		</div>
+		<div class="row__large-4 ">
+							
+
+
+			
+		</div>
+		<!-- /medium 6-->
+	</div>
+
+</div>
+<!-- /.container -->
+	</header>
+
+
+
+<div id="content" role="main" class="content-wrapper">
+
+	<div class="wrapper ">
+		
+	﻿<div class="container header-search">
+	<div class="row row--gutters-100">
+		<div class="row__small-8 filter">
+			
+<div class="blog-taxonomy-filter accordion">
+    <div class="dropdown industries">
+        <button class="dropdown__toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-accordion="#industries">Industries</button>
+        <div class="dropdown__content" id="industries">
+        <ul class="list-unstyled">
+
+
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=aerospace">Aerospace</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=agriculture-construction">Agriculture &amp; Construction</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=automotive">Automotive</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=civil-engineering">Civil Engineering</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=consumer-goods">Consumer Goods</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=electromagnetics">Electromagnetics</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=electronics">Electronics</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=energy">Energy</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=financial-services">Financial Services</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=government-agencies">Government Agencies</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=healthcare">Healthcare</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=industrial-equipment">Industrial Equipment</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=marine">Marine</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=process-manufacturing">Process Manufacturing</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=rail">Rail</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=retail">Retail</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=sports">Sports</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=telecommunications">Telecommunications</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=&_industries=weather-climate">Weather &amp; Climate</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="dropdown trends">
+        <button class="dropdown__toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-accordion="#trends">Trends</button>
+        <div class="dropdown__content" id="trends">
+        <ul class="list-unstyled">
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=5g&_industries=">5G</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=additive-manufacturing&_industries=">Additive Manufacturing</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=autonomous-adas&_industries=">Autonomous &amp; ADAS</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=big-data&_industries=">Big Data</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=cloud-computing&_industries=">Cloud Computing</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=data-transformation&_industries=">Data Transformation</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=digital-twin&_industries=">Digital Twin</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=e-mobility&_industries=">e-Mobility</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=exascale&_industries=">Exascale</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=gpu-solutions&_industries=">GPU Solutions</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=hpc&_industries=">HPC</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=iot&_industries=">IoT</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=lightweighting&_industries=">Lightweighting</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=machine-learning&_industries=">Machine Learning</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=manufacturing-analytics&_industries=">Manufacturing Analytics</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=mechatronics&_industries=">Mechatronics</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=simulation&_industries=">Simulation</a></li>
+                    <li><a href="https://www.altair.com/newsroom/?s=&_content_type=partner-perspectives&_trends=smart-product-development&_industries=">Smart Product Development</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="dropdown contributors">
+        <button class="dropdown__toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-accordion="#contributors">Contributors</button>
+        <div class="dropdown__content" id="contributors">
+        <ul class="list-unstyled">
+                    <li><a href="/newsroom/author/jim-scapa/">Jim Scapa</a></li>
+                    <li><a href="/newsroom/author/sam-mahalingam/">Sam Mahalingam</a></li>
+                    <li><a href="/newsroom/author/james-dagg/">James Dagg</a></li>
+                    <li><a href="/newsroom/author/uwe-schramm/">Uwe Schramm</a></li>
+                    <li><a href="/newsroom/author/stephanie-buckner/">Stephanie Buckner</a></li>
+                    <li><a href="/newsroom/author/gilma-saravia/">Gilma Saravia</a></li>
+                    <li><a href="/newsroom/author/amy-messano/">Amy Messano</a></li>
+                </ul>
+        </div>
+    </div>
+</div>
+<!-- /blog-taxonomy-filter -->		</div>
+		<div class="row__small-4 search">
+
+
+											<form role="search" method="get" id="searchform" class="searchform relative" action="https://www.altair.com/newsroom">
+	<div>
+		<div class="input-reveal">
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 28 28"><path d="M27.619,24.208l-5.453-5.452a1.312,1.312,0,0,0-.93-.383h-.891a11.371,11.371,0,1,0-1.969,1.969v.891a1.311,1.311,0,0,0,.383.93l5.453,5.452a1.307,1.307,0,0,0,1.854,0l1.548-1.548a1.318,1.318,0,0,0,.005-1.859ZM11.376,18.373a7,7,0,1,1,7-7A7,7,0,0,1,11.376,18.373Z" fill="#005776"/></svg>
+
+		</div>
+		<div class="close-search">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16.707" height="16.707">
+				<g data-name="Group 257" fill="none" stroke="#949596"><path data-name="Path 113" d="M.354 16.354l16-16"/><path data-name="Path 114" d="M16.354 16.354l-10.5-10.5-5.5-5.5"/></g>
+			</svg>
+		</div>
+
+		<label class="screen-reader-text sr-only" for="s">Search for:</label>
+		<input class="hdr__search-label" type="text" placeholder="Search Partner Perspectives..." value="" name="s" id="s"/>
+
+
+		<input type="hidden" name="post_type" value="" />
+		<input type="hidden" name="_content_type" value="partner-perspectives" />
+
+		<input type="submit" class="btn-search" id="searchsubmit">
+	</div>
+</form>
+				
+
+
+
+
+		</div>
+		<!-- /medium 6-->
+	</div>
+</div>
+<!-- /header-search-->
+	<div class="container">
+		<article class="post-type-post" id="post-22094">
+
+			<section class="article-content container">
+
+				<div class="container">
+
+					<header>
+						<h1 class="article-h1">Why Calculation Management is Important for Engineers</h1>
+												<div class="share" style="visibility:hidden;">
+    <button class="share-fb" data-sharer="facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+            <path d="M35.538,4.5H6.314A1.792,1.792,0,0,0,4.5,6.267V34.733A1.792,1.792,0,0,0,6.314,36.5H20.926V23.833H17V19.167h3.927v-3.45c0-4.133,2.943-6.383,6.733-6.383,1.814,0,3.764.133,4.218.192v4.317h-3.02c-2.062,0-2.455.95-2.455,2.35v2.975h4.911l-.642,4.667H26.4V36.5h9.137a1.792,1.792,0,0,0,1.814-1.767V6.267A1.792,1.792,0,0,0,35.538,4.5Z" transform="translate(-4.5 -4.5)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-li" data-sharer="linkedin" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+            <path d="M29.9,1.928H8.089A5.464,5.464,0,0,0,2.571,7.3v21.25a5.464,5.464,0,0,0,5.518,5.375H29.9a5.464,5.464,0,0,0,5.518-5.375V7.3A5.464,5.464,0,0,0,29.9,1.928Zm-15.014,26H10.784v-14H14.89Zm-2.053-16a2,2,0,1,1,2.053-2A2.027,2.027,0,0,1,12.837,11.928Zm16.426,16H25.156v-8a2.054,2.054,0,0,0-4.106,0v8H16.943v-14H21.05v2.484c.847-1.133,2.142-2.484,3.593-2.484a4.821,4.821,0,0,1,4.62,5Z" transform="translate(-2.571 -1.928)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-tw" data-sharer="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="26.708" viewBox="0 0 32.852 26.708">
+            <path d="M-4.738,23.331q.8.078,1.6.079a13.249,13.249,0,0,0,8.387-2.883,6.494,6.494,0,0,1-3.926-1.337,6.568,6.568,0,0,1-2.378-3.339A6.351,6.351,0,0,0,.2,15.959a6.6,6.6,0,0,0,1.789-.24,6.5,6.5,0,0,1-3.886-2.31A6.531,6.531,0,0,1-3.429,9.121V9.041a6.323,6.323,0,0,0,3.071.828,6.617,6.617,0,0,1-2.2-2.39,6.571,6.571,0,0,1-.815-3.217A6.547,6.547,0,0,1-2.441.868,18.738,18.738,0,0,0,3.689,5.85a18.972,18.972,0,0,0,7.759,2.07,7.579,7.579,0,0,1-.188-1.549,6.481,6.481,0,0,1,1.976-4.754A6.514,6.514,0,0,1,18.019-.359a6.475,6.475,0,0,1,4.914,2.137A13.561,13.561,0,0,0,27.206.122a6.424,6.424,0,0,1-2.938,3.739,13.761,13.761,0,0,0,3.846-1.068,12.932,12.932,0,0,1-3.339,3.5v.883a19.327,19.327,0,0,1-.788,5.408,19.245,19.245,0,0,1-2.4,5.183,20.634,20.634,0,0,1-3.859,4.392,17.107,17.107,0,0,1-5.382,3.059A19.668,19.668,0,0,1,5.6,26.349,18.922,18.922,0,0,1-4.738,23.331Z" transform="translate(4.738 0.359)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-em" data-sharer="email">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-0.1 1.8 16.2 12.5" preserveAspectRatio="none" width="30">
+            <path fill="#ccc" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+        </svg>
+    </button>
+</div>
+
+
+												<p class="blog-author">
+							<span>By
+							</span>
+							<a href="/newsroom/author/apa/">Altair Partner Alliance</a>
+							<span>
+								|
+							</span>
+							Maplesoft |
+							<time datetime="2019-01-30 00:00:00">January 30, 2019</time>
+						</p>
+
+					</header>
+
+					<div
+						class="article-body">
+						
+													<div class="partner-logo">
+								<img src="https://www.altair.com/newsroom/wp-content/uploads/maplesoft-vector-logo.png" alt="Maplesoft"/>
+							</div>
+						
+
+						<p><em>This guest contribution on the Altair Blog is written by&nbsp;Dr. Laurent Bernardin, COO and Chief Scientist at Maplesoft, a member of the Altair Partner Alliance.</em></p>
+<p>Consider the workflow of many engineers, or technical professionals. During the initial stages of a design project, there’s a lot of scratchpad work. Without enough care and attention, many of these calculations find themselves spread out over notepads, whiteboards, spreadsheets, or simply in the engineer’s head. As the design moves forward, these calculations become the basis of decisions. Not only can calculation mistakes propagate throughout an entire project, but there is also a risk of losing assumptions, insights, and derivation details needed for future work. What happens if an engineer leaves for vacation, or moves onto another position? Without the original author, engineers can be left scratching their head and wondering where “that” number came from.</p>
+<p><!--more--></p>
+<p>Companies take great steps to invest in their most important assets – namely, the products they deliver. These products are comprised of various designs, techniques, and intellectual property, all of which are managed across an organization with careful thought and attention. By treating the knowledge gained through the design process as a corporate asset that needs to be carefully managed, and by developing an awareness of how that asset is used throughout the organization, companies can preserve knowledge, manage innovation, and accelerate solution development.</p>
+<p>One area that is often overlooked is calculation management, a process that treats calculations like the vital, valuable asset they are. Calculation management is a strategy that systematizes the way an organization manages its mathematics and knowledge, from start to finish. With best practices and proper software, calculation management promises to:</p>
+<ul>
+<li>Treat calculations as a valuable, structured asset,</li>
+<li>Enable the tracking, validation, and reuse of calculations,</li>
+<li>Prevent redundant calculation work, even across groups,</li>
+<li>Allow deployment of calculations and tools across an organization.</li>
+</ul>
+<figure id="attachment_17021" aria-describedby="caption-attachment-17021" style="width: 820px" class="wp-caption aligncenter"><a href="https://www.altair.com/newsroom/wp-content/uploads/Image1_Scratchpad.jpg"><img loading="lazy" class="size-full wp-image-17021" src="https://www.altair.com/newsroom/wp-content/uploads/Image1_Scratchpad.jpg" alt="" width="820" height="542"></a><figcaption id="caption-attachment-17021" class="wp-caption-text">Using a calculation management tool like Maple allows for easy, intuitive derivation work without many of the human errors found in scratchpad calculations.</figcaption></figure>
+<p>Math software and spreadsheets are often used to support the calculations at the core of their analyses. However, calculations aren’t just a collection of isolated mathematical operations. It’s important to understand that the nature of engineering calculations often requires more than a spreadsheet tool. While such tools are useful for simple computations, they don’t provide the abilities to make calculations a robust, long-standing asset in a company.</p>
+<p>Engineering calculations are both a function of complex mathematics and physics-based computations, complete with specialized functions and a wide spectrum of units. For these calculations to be reliable in large designs, they’ll typically undergo a validation process, so they must be in a tool that allows the full range of derivations to be transparent, well-documented, and easily updated. The calculations themselves are often a description of real, complicated physics, so they are best performed using tools that are optimized for efficient calculations – even better if these tools can support the power of cloud computing.</p>
+<figure id="attachment_17023" aria-describedby="caption-attachment-17023" style="width: 820px" class="wp-caption aligncenter"><a href="https://www.altair.com/newsroom/wp-content/uploads/Image2_CalMgmt.jpg"><img loading="lazy" class="size-full wp-image-17023" src="https://www.altair.com/newsroom/wp-content/uploads/Image2_CalMgmt.jpg" alt="" width="820" height="542"></a><figcaption id="caption-attachment-17023" class="wp-caption-text">The full range of documentation features in Maple mean that calculation work can be easily audited and understood across an organization.</figcaption></figure>
+<p>Adopting a calculation management tool like Maple is an essential step when making calculations a structured, validated set of assets across a company. Maple functions as a documentation system, ensuring that calculations are understood and accessible across an organization. Using natural math notation, engineers can perform their calculations just as intuitively as by hand, while using plots, diagrams, and text to create mathematical documents that are report-ready. Employing a tool that automatically takes care of common tasks frees up an engineer’s time to develop specific solutions, explore new design ideas, and collaborate with others.</p>
+<p>Calculations shape the engineered world around us. In the marketplace of technical products and processes, growing competition has required faster development and higher efficiencies in almost every sector. Maple provides a unique calculation environment that captures design intent, provides high-level math tools, and also offers cost-effective deployment targets. Fundamentally, Maple helps engineers to manage their calculations. This transforms what would otherwise be an isolated analysis into a structured asset that can be reused, extended and shared. It&#8217;s time to treat your calculations as an essential company asset, and manage them with the attention they deserve.</p>
+
+					</div>
+				</section>
+
+
+				<div class="article-footer">
+					<div class="share" style="visibility:hidden;">
+    <button class="share-fb" data-sharer="facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+            <path d="M35.538,4.5H6.314A1.792,1.792,0,0,0,4.5,6.267V34.733A1.792,1.792,0,0,0,6.314,36.5H20.926V23.833H17V19.167h3.927v-3.45c0-4.133,2.943-6.383,6.733-6.383,1.814,0,3.764.133,4.218.192v4.317h-3.02c-2.062,0-2.455.95-2.455,2.35v2.975h4.911l-.642,4.667H26.4V36.5h9.137a1.792,1.792,0,0,0,1.814-1.767V6.267A1.792,1.792,0,0,0,35.538,4.5Z" transform="translate(-4.5 -4.5)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-li" data-sharer="linkedin" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+            <path d="M29.9,1.928H8.089A5.464,5.464,0,0,0,2.571,7.3v21.25a5.464,5.464,0,0,0,5.518,5.375H29.9a5.464,5.464,0,0,0,5.518-5.375V7.3A5.464,5.464,0,0,0,29.9,1.928Zm-15.014,26H10.784v-14H14.89Zm-2.053-16a2,2,0,1,1,2.053-2A2.027,2.027,0,0,1,12.837,11.928Zm16.426,16H25.156v-8a2.054,2.054,0,0,0-4.106,0v8H16.943v-14H21.05v2.484c.847-1.133,2.142-2.484,3.593-2.484a4.821,4.821,0,0,1,4.62,5Z" transform="translate(-2.571 -1.928)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-tw" data-sharer="twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="26.708" viewBox="0 0 32.852 26.708">
+            <path d="M-4.738,23.331q.8.078,1.6.079a13.249,13.249,0,0,0,8.387-2.883,6.494,6.494,0,0,1-3.926-1.337,6.568,6.568,0,0,1-2.378-3.339A6.351,6.351,0,0,0,.2,15.959a6.6,6.6,0,0,0,1.789-.24,6.5,6.5,0,0,1-3.886-2.31A6.531,6.531,0,0,1-3.429,9.121V9.041a6.323,6.323,0,0,0,3.071.828,6.617,6.617,0,0,1-2.2-2.39,6.571,6.571,0,0,1-.815-3.217A6.547,6.547,0,0,1-2.441.868,18.738,18.738,0,0,0,3.689,5.85a18.972,18.972,0,0,0,7.759,2.07,7.579,7.579,0,0,1-.188-1.549,6.481,6.481,0,0,1,1.976-4.754A6.514,6.514,0,0,1,18.019-.359a6.475,6.475,0,0,1,4.914,2.137A13.561,13.561,0,0,0,27.206.122a6.424,6.424,0,0,1-2.938,3.739,13.761,13.761,0,0,0,3.846-1.068,12.932,12.932,0,0,1-3.339,3.5v.883a19.327,19.327,0,0,1-.788,5.408,19.245,19.245,0,0,1-2.4,5.183,20.634,20.634,0,0,1-3.859,4.392,17.107,17.107,0,0,1-5.382,3.059A19.668,19.668,0,0,1,5.6,26.349,18.922,18.922,0,0,1-4.738,23.331Z" transform="translate(4.738 0.359)" fill="#ccc"></path>
+        </svg>
+    </button>
+    <button class="share-em" data-sharer="email">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-0.1 1.8 16.2 12.5" preserveAspectRatio="none" width="30">
+            <path fill="#ccc" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+        </svg>
+    </button>
+</div>
+					
+<nav class="single-nav">
+			<a class="prev" href="https://www.altair.com/newsroom/partner-perspectives/how-to-shorten-run-times-leverage-the-strengths-of-taitherm-cfd-simulations/">Newer</a>
+	
+			<a class="next" style="margin-left:auto" href=" https://www.altair.com/newsroom/partner-perspectives/big-data-to-smart-data-to-digital-twin/ ">Older</a>
+	</nav>
+				</div>
+				<!-- article footer -->
+			</article>
+
+
+			<section class="related-posts">
+				<h2>Related Articles</h2>
+				<div class="block-list block-list-3">
+											<article class="block-list__item tease tease-post first" id="tease-27900">
+	
+	
+			
+			<a href="https://www.altair.com/newsroom/articles/digital-debunking-die-another-day-is-a-bullet-proof-vest-enough-to-save-your-life/">
+			<div class="img-crop">
+				<picture>
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_James-Bond_Die-Another-Day_Newsroom_Hero.webp" type="image/webp">
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_James-Bond_Die-Another-Day_Newsroom_Hero.jpg" type="image/jpeg">
+				<img src="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_James-Bond_Die-Another-Day_Newsroom_Hero.jpg" alt="Digital Debunking: Die Another Day &#8211; Is a Bullet Proof Vest Enough to Save Your Life?"  class="img-crop__objectfit">
+				</picture>
+				<img src="/newsroom/wp-content/themes/newsroom/images/tease-blank.png" class="img-crop__polyfill" loading="lazy">
+			</div>
+			</a>
+			
+		
+
+		<h3>
+			<a href="https://www.altair.com/newsroom/articles/digital-debunking-die-another-day-is-a-bullet-proof-vest-enough-to-save-your-life/"><span>Digital Debunking: Die Another Day &#8211; Is a Bullet Proof Vest Enough to Save Your Life?</span></a>
+		</h3>
+				
+
+
+		<p><span class="blog-author">
+		<span>By</span><a href="/newsroom/author/jristicaltair-com/"> Jennifer Ristic </a></span><br>
+		September 23, 2021 | <a href="https://www.altair.com/newsroom/articles/digital-debunking-die-another-day-is-a-bullet-proof-vest-enough-to-save-your-life/" class="read-more">Read More</a></p>
+	</article>
+
+											<article class="block-list__item tease tease-post " id="tease-27875">
+	
+	
+			
+			<a href="https://www.altair.com/newsroom/articles/digital-debunking-the-man-with-the-golden-gun-is-it-possible-to-complete-the-famous-james-bond-corkscrew-jump/">
+			<div class="img-crop">
+				<picture>
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_JamesBond_CorkscrewJump_Newsroom_Hero.webp" type="image/webp">
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_JamesBond_CorkscrewJump_Newsroom_Hero.jpg" type="image/jpeg">
+				<img src="https://www.altair.com/newsroom/wp-content/uploads/2021/09/Altair_FA_DD_JamesBond_CorkscrewJump_Newsroom_Hero.jpg" alt="Digital Debunking: The Man with the Golden Gun – Is It Possible to Complete the Famous James Bond Corkscrew Jump?"  class="img-crop__objectfit">
+				</picture>
+				<img src="/newsroom/wp-content/themes/newsroom/images/tease-blank.png" class="img-crop__polyfill" loading="lazy">
+			</div>
+			</a>
+			
+		
+
+		<h3>
+			<a href="https://www.altair.com/newsroom/articles/digital-debunking-the-man-with-the-golden-gun-is-it-possible-to-complete-the-famous-james-bond-corkscrew-jump/"><span>Digital Debunking: The Man with the Golden Gun – Is It Possible to Complete the Famous James Bond Corkscrew Jump?</span></a>
+		</h3>
+				
+
+
+		<p><span class="blog-author">
+		<span>By</span><a href="/newsroom/author/jristicaltair-com/"> Jennifer Ristic </a></span><br>
+		September 22, 2021 | <a href="https://www.altair.com/newsroom/articles/digital-debunking-the-man-with-the-golden-gun-is-it-possible-to-complete-the-famous-james-bond-corkscrew-jump/" class="read-more">Read More</a></p>
+	</article>
+
+											<article class="block-list__item tease tease-post " id="tease-27869">
+	
+	
+			
+			<a href="https://www.altair.com/newsroom/articles/human-or-artificial-intelligence/">
+			<div class="img-crop">
+				<picture>
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/DA_Campaign_Future-Says_Series2_RECAP_S1Ep4_Koolmeister-HM_Newsroom-Hero.webp" type="image/webp">
+				<source srcset="https://www.altair.com/newsroom/wp-content/uploads/2021/09/DA_Campaign_Future-Says_Series2_RECAP_S1Ep4_Koolmeister-HM_Newsroom-Hero.jpg" type="image/jpeg">
+				<img src="https://www.altair.com/newsroom/wp-content/uploads/2021/09/DA_Campaign_Future-Says_Series2_RECAP_S1Ep4_Koolmeister-HM_Newsroom-Hero.jpg" alt="Human or Artificial Intelligence?"  class="img-crop__objectfit">
+				</picture>
+				<img src="/newsroom/wp-content/themes/newsroom/images/tease-blank.png" class="img-crop__polyfill" loading="lazy">
+			</div>
+			</a>
+			
+		
+
+		<h3>
+			<a href="https://www.altair.com/newsroom/articles/human-or-artificial-intelligence/"><span>Human or Artificial Intelligence?</span></a>
+		</h3>
+				
+
+
+		<p><span class="blog-author">
+		<span>By</span><a href="/newsroom/author/jristicaltair-com/"> Jennifer Ristic </a></span><br>
+		September 20, 2021 | <a href="https://www.altair.com/newsroom/articles/human-or-artificial-intelligence/" class="read-more">Read More</a></p>
+	</article>
+
+									</div>
+			</section>
+
+
+		</div>
+		<!-- /content-wrapper -->
+		</div>
+	
+
+
+
+
+
+</div>
+
+
+
+	<footer id="footer">
+		<section class="container">
+
+</section>
+	</footer>
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2T7LR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Demandbase Footer Code -->
+	<script>
+		(function(d,b,a,s,e){ var t = b.createElement(a),
+		fs = b.getElementsByTagName(a)[0]; t.async=1; t.id=e; t.src=s;
+		fs.parentNode.insertBefore(t, fs); })
+		(window,document,'script','https://tag.demandbase.com/af6e82df4da5bdd0.min.js','demandbase_js_lib');  
+	</script>
+
+
+	<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"8.4.90"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://js.hs-scripts.com/47251.js?integration=WordPress' async defer id='hs-script-loader'></script>
+<script defer type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' id='jquery-defer-js'></script>
+<script defer type='text/javascript' src='//www.altair.com/javascripts/vendor.js?ver=1.0' id='vendor-defer-js'></script>
+<script defer type='text/javascript' src='//www.altair.com/javascripts/custom.js?ver=1.0' id='custom-defer-js'></script>
+<script defer type='text/javascript' src='//www.altair.com/javascripts/newsroom.js?ver=1.0' id='newsroom-defer-js'></script>
+<script type='text/javascript' src='https://www.altair.com/newsroom/wp-includes/js/wp-embed.min.js?ver=a041fbd04579d55709e8ad8687e3b38d' id='wp-embed-js'></script>
+
+
+			<footer class="altair-footer">
+			
+
+<div class="container accordion">
+
+    <div id="footer_footer_connect" class="row__large-5 altair-footer__connect">
+
+        <div class="altair-footer__heading">
+            Stay Connected</div>
+        <p class="altair-footer__connect__intro">
+            Ready to move forward? You've come to the right place. Sign up and start exploring the latest discoveries from Altair.</p>
+
+        <div id="footer_form">
+            
+                    <form onsubmit="Subscribe(this);return false;" class="hs-form" id="2eb43dee-c8c0-4ad7-a38d-b128a13e9083">
+                        <fieldset class="hidden">
+                            <input name="lifecyclestage" class="hs-input" type="hidden" value="subscriber">
+                            <input name="optin_to_marketing_emails" class="hs-input" type="hidden" value="true" />
+                            <input name="LEGAL_CONSENT.subscription_type_2124" type="hidden" value="true" class="hs-input legal-consent" data-subscriptiontypeid="2124" data-text="I agree to receive email from Altair." />
+                        </fieldset>
+                        <div class="altair-footer__subscribe">
+                            <input type="email" name="email" required placeholder="Email Address" class="hs-input" />
+                            <input type="submit" value="Submit" class="hs-button" />
+                        </div>
+                        <fieldset>
+                            <p class="legal-consent-container">
+                                Altair and our resellers need your email address to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our <a href="javascript:popupsized('/popup_privacy.htm','yes','600','700')" target="_self" rel="nofollow">Privacy Policy</a>.
+                            </p>
+                        </fieldset>
+                    </form>
+                
+        </div>
+        
+        <ul class="nav nav--horizontal altair-footer__social">
+            <li class="facebook"><a href="https://www.facebook.com/altairengineering/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+                    <path d="M35.538,4.5H6.314A1.792,1.792,0,0,0,4.5,6.267V34.733A1.792,1.792,0,0,0,6.314,36.5H20.926V23.833H17V19.167h3.927v-3.45c0-4.133,2.943-6.383,6.733-6.383,1.814,0,3.764.133,4.218.192v4.317h-3.02c-2.062,0-2.455.95-2.455,2.35v2.975h4.911l-.642,4.667H26.4V36.5h9.137a1.792,1.792,0,0,0,1.814-1.767V6.267A1.792,1.792,0,0,0,35.538,4.5Z" transform="translate(-4.5 -4.5)" fill="#fff" />
+                </svg>Facebook</a></li>
+            <li class="instagram"><a href="https://www.instagram.com/altairengineering/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+                    <path d="M16.426,0c-4.462,0-5.019.02-6.772.1A12.394,12.394,0,0,0,5.667.84a8.069,8.069,0,0,0-2.91,1.845A7.789,7.789,0,0,0,.862,5.52,11.5,11.5,0,0,0,.1,9.4C.016,11.111,0,11.653,0,16s.021,4.889.1,6.6A11.539,11.539,0,0,0,.862,26.48a7.829,7.829,0,0,0,1.894,2.835,8.057,8.057,0,0,0,2.91,1.845,12.409,12.409,0,0,0,3.987.744c1.752.08,2.309.1,6.772.1s5.019-.02,6.772-.1a12.438,12.438,0,0,0,3.987-.744,8.1,8.1,0,0,0,2.91-1.845,7.8,7.8,0,0,0,1.894-2.835,11.539,11.539,0,0,0,.764-3.884c.082-1.707.1-2.249.1-6.6s-.021-4.889-.1-6.6a11.565,11.565,0,0,0-.764-3.884,7.835,7.835,0,0,0-1.894-2.835A8.028,8.028,0,0,0,27.185.84,12.366,12.366,0,0,0,23.2.1C21.445.016,20.888,0,16.426,0Zm0,2.88c4.384,0,4.907.021,6.639.095a9.26,9.26,0,0,1,3.048.553A5.117,5.117,0,0,1,28,4.723a4.932,4.932,0,0,1,1.226,1.841A8.635,8.635,0,0,1,29.8,9.533c.078,1.688.1,2.195.1,6.467s-.021,4.78-.1,6.467a8.8,8.8,0,0,1-.576,2.969,5.069,5.069,0,0,1-1.231,1.843A5.14,5.14,0,0,1,26.1,28.473a9.348,9.348,0,0,1-3.059.551c-1.744.076-2.257.093-6.651.093s-4.909-.02-6.651-.1a9.53,9.53,0,0,1-3.061-.561,5.1,5.1,0,0,1-1.888-1.2,4.848,4.848,0,0,1-1.232-1.84,8.876,8.876,0,0,1-.575-2.98c-.062-1.68-.083-2.2-.083-6.459S2.917,11.2,2.979,9.5A8.866,8.866,0,0,1,3.553,6.52,4.733,4.733,0,0,1,4.785,4.679a4.873,4.873,0,0,1,1.888-1.2,9.3,9.3,0,0,1,3.04-.561c1.745-.06,2.259-.08,6.651-.08l.062.04Zm0,4.9A8.327,8.327,0,0,0,7.991,16a8.327,8.327,0,0,0,8.435,8.216A8.327,8.327,0,0,0,24.86,16,8.327,8.327,0,0,0,16.426,7.784Zm0,13.549A5.335,5.335,0,1,1,21.9,16,5.4,5.4,0,0,1,16.426,21.333ZM27.166,7.46a1.972,1.972,0,1,1-1.971-1.919A1.947,1.947,0,0,1,27.166,7.46Z" fill="#fff" />
+                </svg>Instagram</a></li>
+            <li class="linkedin"><a href="http://www.linkedin.com/company/8323" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="32" viewBox="0 0 32.852 32">
+                    <path d="M29.9,1.928H8.089A5.464,5.464,0,0,0,2.571,7.3v21.25a5.464,5.464,0,0,0,5.518,5.375H29.9a5.464,5.464,0,0,0,5.518-5.375V7.3A5.464,5.464,0,0,0,29.9,1.928Zm-15.014,26H10.784v-14H14.89Zm-2.053-16a2,2,0,1,1,2.053-2A2.027,2.027,0,0,1,12.837,11.928Zm16.426,16H25.156v-8a2.054,2.054,0,0,0-4.106,0v8H16.943v-14H21.05v2.484c.847-1.133,2.142-2.484,3.593-2.484a4.821,4.821,0,0,1,4.62,5Z" transform="translate(-2.571 -1.928)" fill="#fff" />
+                </svg>LinkedIn</a></li>
+            <li class="twitter"><a href="https://twitter.com/altair_inc" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="26.708" viewBox="0 0 32.852 26.708">
+                    <path d="M-4.738,23.331q.8.078,1.6.079a13.249,13.249,0,0,0,8.387-2.883,6.494,6.494,0,0,1-3.926-1.337,6.568,6.568,0,0,1-2.378-3.339A6.351,6.351,0,0,0,.2,15.959a6.6,6.6,0,0,0,1.789-.24,6.5,6.5,0,0,1-3.886-2.31A6.531,6.531,0,0,1-3.429,9.121V9.041a6.323,6.323,0,0,0,3.071.828,6.617,6.617,0,0,1-2.2-2.39,6.571,6.571,0,0,1-.815-3.217A6.547,6.547,0,0,1-2.441.868,18.738,18.738,0,0,0,3.689,5.85a18.972,18.972,0,0,0,7.759,2.07,7.579,7.579,0,0,1-.188-1.549,6.481,6.481,0,0,1,1.976-4.754A6.514,6.514,0,0,1,18.019-.359a6.475,6.475,0,0,1,4.914,2.137A13.561,13.561,0,0,0,27.206.122a6.424,6.424,0,0,1-2.938,3.739,13.761,13.761,0,0,0,3.846-1.068,12.932,12.932,0,0,1-3.339,3.5v.883a19.327,19.327,0,0,1-.788,5.408,19.245,19.245,0,0,1-2.4,5.183,20.634,20.634,0,0,1-3.859,4.392,17.107,17.107,0,0,1-5.382,3.059A19.668,19.668,0,0,1,5.6,26.349,18.922,18.922,0,0,1-4.738,23.331Z" transform="translate(4.738 0.359)" fill="#fff" />
+                </svg>Twitter</a></li>
+            <li class="youtube"><a href="http://www.youtube.com/user/InnovationSimulation" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32.852" height="24.464" viewBox="0 0 32.852 24.464">
+                    <path d="M32.173,9.2a4.261,4.261,0,0,0-2.859-3.046c-2.561-.731-12.866-.731-12.866-.731s-10.28-.015-12.866.731A4.261,4.261,0,0,0,.722,9.2a48.5,48.5,0,0,0-.715,8.47,48.494,48.494,0,0,0,.715,8.438,4.261,4.261,0,0,0,2.859,3.046c2.558.732,12.866.732,12.866.732s10.278,0,12.866-.732a4.261,4.261,0,0,0,2.859-3.046,48.5,48.5,0,0,0,.685-8.438,48.5,48.5,0,0,0-.685-8.47ZM13.158,22.91V12.416l8.577,5.255Z" transform="translate(-0.007 -5.424)" fill="#fff" />
+                </svg>YouTube</a></li>
+            <li class="blog"><a href="https://blog.altair.com/" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="2 2 36 36"><defs><style>.a{fill:#fff;}</style></defs><path class="a" d="M31,4H9A5,5,0,0,0,4.29,7.37H35.71A5,5,0,0,0,31,4Z"/><path class="a" d="M11.31,13.29c0-.62-.72-.68-1-.68H8.74v1.47h1.49C10.56,14.08,11.31,14,11.31,13.29Z"/><path class="a" d="M11.63,16h0c0-.6-.74-.73-1.35-.73H8.74v1.52h1.68C10.7,16.73,11.63,16.67,11.63,16Z"/><path class="a" d="M36,8.62H4C4,8.75,4,8.87,4,9V31a5,5,0,0,0,5,5H31a5,5,0,0,0,5-5V9C36,8.87,36,8.75,36,8.62Zm-6.44,2.75a3.39,3.39,0,0,1,2.31.83l.29.25-.77.88-.28-.24a2.17,2.17,0,0,0-1.57-.59,2,2,0,0,0-2,2.15,2,2,0,0,0,2,2.19A2.58,2.58,0,0,0,31,16.39V15.33H29.12V14.19h3v2.72L32,17a3.79,3.79,0,0,1-2.47.95,3.14,3.14,0,0,1-3.22-3.28A3.22,3.22,0,0,1,29.52,11.37Zm-7.29,0a3.17,3.17,0,0,1,3.21,3.28A3.24,3.24,0,0,1,22.21,18,3.17,3.17,0,0,1,19,14.69,3.24,3.24,0,0,1,22.23,11.37Zm-8,.1h1.17v5.26H18.7v1.14H14.21Zm-6.64,0h2.71a2.45,2.45,0,0,1,1.74.61,1.64,1.64,0,0,1,.47,1.15A1.7,1.7,0,0,1,12,14.51a1.6,1.6,0,0,1,.83,1.43c0,1.16-1,1.93-2.4,1.93H7.57Zm.63,10H18.62a.63.63,0,1,1,0,1.25H8.2a.63.63,0,1,1,0-1.25Zm0,4.76H18.62a.63.63,0,1,1,0,1.25H8.2a.63.63,0,1,1,0-1.25Zm23.61,6H8.2A.63.63,0,1,1,8.2,31H31.81a.63.63,0,0,1,0,1.25Zm.62-4a.63.63,0,0,1-.62.63H21.72a.63.63,0,0,1-.62-.63V22.11a.62.62,0,0,1,.62-.62H31.81a.62.62,0,0,1,.62.62Z"/><path class="a" d="M22.23,16.84a2,2,0,0,0,2-2.15v0a2,2,0,1,0-4.06,0A2.06,2.06,0,0,0,22.23,16.84Z"/></svg>Blog</a></li>
+            <li class="wechat"><a href="https://mp.weixin.qq.com/s/r0oa7XrgZQppwmKF5HyVQQ" target="_blank">
+            <svg width="40px" height="40px" viewBox="0 0 25 25" ><path  d="M21.502 19.525c1.524-1.105 2.498-2.738 2.498-4.554 0-3.326-3.237-6.023-7.229-6.023s-7.229 2.697-7.229 6.023c0 3.327 3.237 6.024 7.229 6.024.825 0 1.621-.117 2.36-.33l.212-.032c.139 0 .265.043.384.111l1.583.914.139.045c.133 0 .241-.108.241-.241l-.039-.176-.326-1.215-.025-.154c0-.162.08-.305.202-.392zm-12.827-17.228c-4.791 0-8.675 3.236-8.675 7.229 0 2.178 1.168 4.139 2.997 5.464.147.104.243.276.243.471l-.03.184-.391 1.458-.047.211c0 .16.13.29.289.29l.168-.054 1.899-1.097c.142-.082.293-.133.46-.133l.255.038c.886.255 1.842.397 2.832.397l.476-.012c-.188-.564-.291-1.158-.291-1.771 0-3.641 3.542-6.593 7.911-6.593l.471.012c-.653-3.453-4.24-6.094-8.567-6.094zm5.686 11.711c-.532 0-.963-.432-.963-.964 0-.533.431-.964.963-.964.533 0 .964.431.964.964 0 .532-.431.964-.964.964zm4.82 0c-.533 0-.964-.432-.964-.964 0-.533.431-.964.964-.964.532 0 .963.431.963.964 0 .532-.431.964-.963.964zm-13.398-5.639c-.639 0-1.156-.518-1.156-1.156 0-.639.517-1.157 1.156-1.157.639 0 1.157.518 1.157 1.157 0 .638-.518 1.156-1.157 1.156zm5.783 0c-.639 0-1.156-.518-1.156-1.156 0-.639.517-1.157 1.156-1.157.639 0 1.157.518 1.157 1.157 0 .638-.518 1.156-1.157 1.156z" fill="#fff"/></svg>WeChat</a></li>
+        </ul>
+
+    </div>
+    
+    <div class="row__medium-4 row__large-3 altair-footer__solutions">
+        <div class="altair-footer__heading" data-accordion="#solutions">Solutions for...</div>
+        <ul class="nav accordion__content" id="solutions">
+            <li><a href="https://www.altair.com/data-analysts/" target="_self">Data Scientists & Analysts</a></li>
+            <li><a href="https://www.altair.com/designers/" target="_self">Designers</a></li>
+            <li><a href="https://www.altair.com/developers/" target="_self">Developers</a></li>
+            <li><a href="https://www.altair.com/engineers/" target="_self">Engineers</a></li>
+            <li><a href="https://www.altair.com/executives/" target="_self">Executives</a></li>
+            <li><a href="https://www.altair.com/facility-managers/" target="_self">Facility Managers</a></li>
+            <li><a href="https://www.altair.com/it-hpc-professionals" target="_self">IT &amp; HPC Professionals</a></li>
+            <li><a href="https://www.altair.com/start-ups" target="_self">Start-ups</a></li>
+            <li><a href="https://www.altair.com/students-educators" target="_self">Students &amp; Educators</a></li>
+        </ul>
+    </div>
+
+
+    <div class="row__medium-4 row__large-4 altair-footer__applications">
+        <div class="altair-footer__heading" data-accordion="#applications">Products</div>
+        <ul class="nav accordion__content" id="applications">
+            <li><a href="https://www.altair.com/data-analytics-applications" target="_self">Data Analytics</a></li>
+            <li><a href="https://www.altair.com/electromagnetics-applications" target="_self">Electromagnetics</a></li>
+            <li><a href="https://www.altair.com/electronic-system-design" target="_self">Electronic System Design</a></li>
+            <li><a href="https://www.altair.com/fluids-thermal-applications" target="_self">Fluids & Thermal</a></li>
+            <li><a href="https://www.altair.com/hpc-cloud-applications" target="_self">HPC & Cloud</a></li>
+            <li><a href="https://www.altair.com/industrial-design-applications/" target="_self">Industrial Design</a></li>
+            <li><a href="https://www.altair.com/iot/" target="_self">Internet of Things</a></li>
+            <li><a href="https://www.altair.com/manufacturing-applications" target="_self">Manufacturability</a></li>
+            <li><a href="https://www.altair.com/multiphysics-applications" target="_self">Multiphysics</a></li>
+            <li><a href="https://www.altair.com/structures-applications" target="_self">Structural Analysis</a></li>
+            <li><a href="https://www.altair.com/systems-modeling-applications" target="_self">Systems Modeling</a></li>
+            <li><a class="btn btn--mid-blue--reversed" href="https://www.altair.com/product-showcase" target="_self">View Our Products</a></li>
+        </ul>
+    </div>
+
+
+    <div class="row__medium-4 row__large-4 altair-footer__about">
+        <div class="altair-footer__heading about" data-accordion="#about">About Us</div>
+        <div class="container accordion__content" id="about">
+            <div class="row__large-4">
+                <ul class="nav">
+                    <li><a href="https://www.altair.com/company" target="_self">Company</a></li>
+                    <li><a href="https://www.altair.com/global-locations/" target="_self">Locations</a></li>
+                    <li><a href="https://www.altair.com/careers" target="_self">Careers</a></li>
+                </ul>
+            </div>
+            <div class="row__large-4">
+                <ul class="nav about">
+                    <li><a href="https://investor.altair.com/" target="_blank">Investors</a></li>
+                    <li><a href="https://www.altair.com/contact-us" target="_self">Contact</a></li>
+                    <li><a href="https://www.altair.com/customer-support" target="_self">Support</a></li>
+                </ul>
+            </div>
+            <div class="row__large-4">
+                <ul class="nav about">
+                    <li><a href="https://www.altair.com/newsroom/" target="_self">Newsroom</a></li>
+                    <li><a href="https://www.altair.com/partners/" target="_self">Partners</a></li>
+                    <li><a href="https://www.altair.com/email-newsletter/" target="_self">Email Newsletters</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container -->
+
+<div class="container altair-footer__boilerplate">
+    <div class="row__medium-4 row__xlarge-4">
+        <a href="/Default.aspx" class="brand navbar__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="261.559" height="53.659" viewBox="0 0 261.559 53.659" role="img" aria-label="Altair Engineering">
+                <g transform="translate(-0.002)">
+                    <path d="M60.426,39.472a91,91,0,0,1-21.7-37.536A2.608,2.608,0,0,0,36.2,0H24.975a2.652,2.652,0,0,0-2.532,1.936A91,91,0,0,1,.746,39.472a2.7,2.7,0,0,0-.4,3.178l5.611,9.682a2.67,2.67,0,0,0,2.929,1.241,91.744,91.744,0,0,1,21.7-2.631,89.237,89.237,0,0,1,21.7,2.631,2.6,2.6,0,0,0,2.929-1.241l5.611-9.682A2.716,2.716,0,0,0,60.426,39.472ZM48.013,47.615,8.541,39.224a.345.345,0,0,1-.2-.546L35.353,8.689a.328.328,0,0,1,.546.1l12.512,38.38A.362.362,0,0,1,48.013,47.615Z" transform="translate(0)" fill="#fff" />
+                    <g transform="translate(76.612 8.937)">
+                        <path d="M169.94,18,154.3,53.749h7.3l3.575-8.341h15.69l3.525,8.341h7.448L176.2,18Zm-2.185,21.052,5.213-12.115,5.263,12.115Z" transform="translate(-154.3 -18)" fill="#fff" />
+                        <path d="M247.65,18.5H240.6V54h25.223V47.5H247.65Z" transform="translate(-197.751 -18.252)" fill="#fff" />
+                        <path d="M359.04,18,343.4,53.749h7.249l3.575-8.341h15.69l3.525,8.341h7.448L365.246,18Zm-2.185,21.052,5.213-12.115,5.263,12.115Z" transform="translate(-249.51 -18)" fill="#fff" />
+                        <rect width="7.001" height="35.5" transform="translate(137.284 0.248)" fill="#fff" />
+                        <path d="M486.151,40.694a10.759,10.759,0,0,0,7.944-10.774c0-7.05-5.114-11.42-13.306-11.42H464.9V54h7V41.935h6.852L487.293,54h8.341ZM471.9,25h8.341c4.32,0,6.7,1.887,6.7,5.313,0,3.277-2.532,5.362-6.653,5.362H471.9Z" transform="translate(-310.685 -18.252)" fill="#fff" />
+                        <path d="M287.1,18.5v6.753h10.923V54h7.2V25.253h10.923V18.5Z" transform="translate(-221.164 -18.252)" fill="#fff" />
+                    </g>
+                </g>
+            </svg></a>
+    </div>
+    <div class="row__medium-8 row__xlarge-8">
+
+        <p><a href="https://www.altair.com/privacy-policy/" target="_self">Privacy</a> 
+            | <a href="https://www.altair.com/terms-of-use/" target="_self">Website Terms of Use</a> 
+              
+            | <a href="javascript:window.gateway.openBanner();" target="_self">Cookie Consent</a> |  <a href="http://web.altair.com/covid-19-response" target="_blank">COVID-19</a><br>
+            &copy; 2021 Altair Engineering, Inc. All Rights Reserved. We are currently listed on Nasdaq as ALTR. </p>
+    </div>
+</div>
+
+
+		</footer>
+	
+		
+</body></html>

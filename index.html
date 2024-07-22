@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="cp.css">
+    <script src="bootstrap.min.js"></script>
+    <script src="jQuery.js"></script>
+   <style>
+     .sign{
+       margin-left: 1100px;
+        z-index: 8.5;
+        margin-bottom: 10px;
+     }
+    .slider{
+    background-image: url("index.jpg");
+    font-size:70px;      
+    /* border:  ; */
+    z-index: 9;
+    background-position-x: center;
+    width:1290px;
+        height:120px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding:13px;
+        margin:20px;
+        margin-bottom: 0px;
+        animation-name:helloani;
+        animation-duration:3s;
+        animation-iteration-count:10;
+        animation-direction:alternate-reverse;
+        animation-timing-function:ease-in-out;
+
+}
+@keyframes helloani{
+        from{
+            width:0px;
+        }
+        to{
+            width:1290px;
+        }
+    }
+   
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body> 
+   <div class="slider">Digital Grading System </div>
+   <br>
+   <div class="sign">
+    <a href="login.html" style="color: black;"><h2>Login</h2></a>
+    <div class="inputBx">
+      <p>Don't have an account? <a href="" id="signup">Sign up</a></p>
+    </div>
+   </div>
+   <div class="signin" style="display:none;">
+    <div class="inputBx">
+      <span>Username</span>
+      <input type="text" name="" />
+    </div>
+    <div class="inputBx">
+      <span>Password</span>
+      <input type="password" name="" />
+    </div>
+    <div class="remember">
+      <label for=""> <input type="checkbox" />Remember me</label>
+    </div>
+    <div class="inputBx">
+      <input type="submit" value="Sign in" name="" />
+    </div>
+   </div>
+   <div class="neww">
+   
+    
+   <div class="container">
+    <form class="calculator" name="calc">
+        <input type="text" class="value" name="txt">
+        <span class="num clear" onclick="calc.txt.value=''">c</span>
+        <span class="num" onclick="document.calc.txt.value+='/'">/</span>
+        <span class="num" onclick="document.calc.txt.value +='*'">*</span>
+        <span class="num" onclick="document.calc.txt.value +='7'">7</span>
+        <span class="num" onclick="document.calc.txt.value +='8'">8</span>
+        <span class="num" onclick="document.calc.txt.value +='9'">9</span>
+        <span class="num" onclick="document.calc.txt.value +='-'">-</span>
+        <span class="num" onclick="document.calc.txt.value +='4'">4</span>
+        <span class="num" onclick="document.calc.txt.value +='5'">5</span>
+        <span class="num" onclick="document.calc.txt.value +='6'">6</span>
+        <span class="num plus" onclick="document.calc.txt.value +='+'">+</span>
+        <span class="num" onclick="document.calc.txt.value +='1'">1</span>
+        <span class="num" onclick="document.calc.txt.value +='2'">2</span>
+        <span class="num" onclick="document.calc.txt.value +='3'">3</span>
+        <span class="num" onclick="document.calc.txt.value +='0'">0</span>
+        <span class="num" onclick="document.calc.txt.value +='00'">00</span>
+        <span class="num" onclick="document.calc.txt.value +='.'">.</span>
+        <span class="num equal" onclick="document.calc.txt.value=eval(calc.txt.value)">=</span>
+
+    </form>
+</div>
+</div>
+<script src="signup.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+VanillaTilt.init(document.querySelector(".container"), {
+max: 25,
+speed: 400
+});
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

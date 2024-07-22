@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="bootstrap.min.js"></script>
+    <script src="jQuery.js"></script>
+  </head>
+  <body>
+    <section>
+      <!-- <div class="imgg"><img src="womensTshirts002.jpg" /></div> -->
+      <div class="content">
+        <div class="contentBx">
+          <div class="formBx">     
+            <h2>Login</h2>
+            <form action="" name="formm">
+              <div class="inputBx">
+                <span >Username</span>
+                <input type="text" name="Username" placeholder="Username" class="inpu"/>
+              </div>
+              <div class="inputBx">
+                <span>Password</span>
+                <input type="password" name="password" placeholder="Password" class="inpu"
+                autocomplete="off"
+                required
+              />
+              <!-- <span class="input-group-btn" id="input-group-btn">
+                <button class="btn btn-default reveal" type="button">
+                  <i class="glyphicon glyphicon-eye-open"></i>
+                </button>
+              </span> -->
+              </div>
+              <div class="remember">
+                <label for=""> <input type="checkbox" />Remember me</label>
+              </div>
+              <div class="inputBx">
+                <a href="" class="inputBxx"><button type="submit" id="ab1">Sign in</button></a>
+              </div>
+              <div class="inputBx">
+                <p>Don't have an account? <a href="" id="ab2" style="color: blue;">Sign up</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="signin.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".content"), {
+        max: 25,
+        speed: 400
+      });
+      
+      // //It also supports NodeList
+      // VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+  </body>
+</html>
